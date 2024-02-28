@@ -1,0 +1,77 @@
+/* Resetting default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background color */
+body {
+    background-color: #ffc4c4;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Section container styles */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Paragraph styles */
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* Story container styles */
+#story {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Student ID styles */
+#studentId {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+/* Section heading styles */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Specific button styles */
+#noun1, #noun2, #verb, #adjective, #setting {
+    background-color: #e5e5e5;
+    color: #333;
+}
+
+/* Playback button styles */
+#playback, #random, #reset {
+    background-color: #91ff00;
+    color: #fff;
+}
+
+/* Hover effect for buttons */
+button:hover, #playback:hover, #random:hover, #reset:hover {
+    background-color: #2980b9;
+}
